@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="CSS FILES/todo.css">
+</head>
+<body>
+  
+
+
+  <p>Todo List</p>
+
+  <div class="outer-grid">
+
+    <input type="text"
+    class="ipBox ip1"
+    placeholder="Todo Name"
+    onkeypress="keyPressed(event);"
+    >
+
+  <input type="date"
+    class="js-date ip2"
+    placeholder="Select / Enter date">
+
+  <button class="add addcss"
+    onclick="addClicked();">
+    Add</button>
+
+
+  </div>
+
+  
+  <div class="show gridShow"></div>
+  
+
+  <script src="JS FILES/todo.js"></script>
+  
+</body>
+</html>
